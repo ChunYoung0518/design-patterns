@@ -1,10 +1,10 @@
 package Adaptor;
 
-public class MovableAdaptorImpl implements Adaptor.MovableAdaptor {
+public class MovableAdaptorImpl implements MovableAdaptor {
 
-    private Adaptor.Movable luxuryCars;
+    private Movable luxuryCars;
 
-    public MovableAdaptorImpl(Adaptor.Movable luxuryCars) {
+    public MovableAdaptorImpl(Movable luxuryCars) {
         this.luxuryCars = luxuryCars;
     }
 
